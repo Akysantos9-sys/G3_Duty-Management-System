@@ -5,7 +5,7 @@ public class SorianoZijan_minipeta2 {
 @Test
 public void printmyProfile() {
     String myName = "Zijan";
-    String petName = "Gian";
+    String petName = "Gian pmgt";
     String favFood = "Fried chicken";
     int myage = 17;
 
