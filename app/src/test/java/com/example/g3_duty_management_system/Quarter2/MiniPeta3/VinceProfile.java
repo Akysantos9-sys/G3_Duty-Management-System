@@ -1,4 +1,4 @@
-package com.example.g3_duty_management_system.Quarter2.MiniPeta2;
+package com.example.g3_duty_management_system.Quarter2.MiniPeta3;
 
 import org.junit.Test;
 
