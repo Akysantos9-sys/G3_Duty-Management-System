@@ -2,7 +2,7 @@ package com.example.g3_duty_management_system.Quarter2.MiniPeta2;
 
 import org.junit.Test;
 
-public class Vince {
+public class VinceProfile {
     @Test
     public void myProfileInfo() {
         String myName = "Vincent Baltazar";
