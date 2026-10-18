@@ -45,6 +45,45 @@
                 android:textSize="14sp" />
         </LinearLayout>
 
+        <!-- Student Account -->
+        <LinearLayout
+            android:id="@+id/btnStudentAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MY STUDENT ACCOUNT"
+                android:textColor="#3EAAD1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Log in to your personal account to check your assigned cleaning duties, duty schedule, attendance, and weekly overview."
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="OPEN MY ACCOUNT  →"
+                android:textColor="#3EAAD1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
         <!-- Overview -->
         <TextView
             android:layout_width="match_parent"
