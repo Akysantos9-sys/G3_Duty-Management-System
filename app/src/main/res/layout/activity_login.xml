@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3EAAD1"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Main White Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Image Placeholder -->
+            <FrameLayout
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="#F2F8FA">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Login illustration placeholder"
+                    android:padding="35dp"
+                    android:scaleType="centerInside"
+                    android:scaleX="2"
+                    android:scaleY="2"
+                    android:src="@drawable/logo"
+                    android:tint="#00FFFFFF" />
+
+            </FrameLayout>
+
+            <!-- Login Title -->
+
+            <!-- Name Label -->
+
+            <!-- Name Input -->
+
+            <!-- Email Label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:fontFamily="serif"
+                android:text="Welcome!"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Emailtext_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Email"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <!-- Email Input -->
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#3EAAD1"
+                android:fontFamily="serif"
+                android:hint="Enter your email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:textSize="14sp" />
+
+            <!-- Password Label -->
+            <TextView
+                android:id="@+id/Passwordtext_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Password"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <!-- Password Input -->
+            <EditText
+                android:id="@+id/passwordInput"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="#3EAAD1"
+                android:fontFamily="serif"
+                android:hint="Enter your password"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:textSize="14sp" />
+
+            <!-- Forgot Password -->
+
+            <!-- Sign Up Button -->
+            <Button
+                android:id="@+id/LoginButton"
+                android:layout_width="117dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#3EAAD1"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:fontFamily="serif"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
