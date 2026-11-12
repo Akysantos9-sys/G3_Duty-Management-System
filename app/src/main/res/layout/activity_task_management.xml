@@ -32,9 +32,9 @@
             android:id="@+id/radio1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="6dp"
             android:text="1. Sweep the floor"
-            android:textSize="16sp"
-            android:padding="6dp"/>
+            android:textSize="16sp" />
 
         <RadioButton
             android:id="@+id/radio2"
