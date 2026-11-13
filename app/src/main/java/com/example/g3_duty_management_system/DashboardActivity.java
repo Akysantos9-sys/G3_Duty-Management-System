@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class DashboardActivity extends AppCompatActivity {
 
     TextView accountprofile;
-
+    TextView schedule;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,12 @@ public class DashboardActivity extends AppCompatActivity {
         accountprofile.setOnClickListener(v -> {
             Intent intent = new Intent(DashboardActivity.this, AccountProfile.class);
             startActivity(intent);
+        });
+        schedule = findViewById(R.id.schedule);
+
+        schedule.setOnClickListener(v -> {
+            Intent Intent = new Intent(DashboardActivity.this, ScheduleTracker.class);
+            startActivity(Intent);
         });
     }
 }
